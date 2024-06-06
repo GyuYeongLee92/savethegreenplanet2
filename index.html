@@ -1,0 +1,332 @@
+<!-- 폰트: 어도비 폰트는 웹 ㅍ,로젝트 추가 후 스크립트 복사 후 헤드로 복붙 후 폰트페이스 복붙 -->
+<!-- 화면 너비 줄이기 -->
+<!-- 내용이 이해갈 수 있도록 잘 정리해보기 -->
+<!-- 앞에 설명 넣어보기 -->
+<!-- 외계인 얘기 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'aap8wwi',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'aap8wwi',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<script src="wow.js"></script>
+<script>new WOW().init();</script>
+
+	<title>지구를 지켜라!</title>
+</head>
+<style type="text/css">
+@font-face{font-family: rixdongnimgothic-pro, sans-serif;
+           font-style: normal;
+           font-weight: 400;}
+@font-face{font-family: "rixsingose-pro", sans-serif;
+           font-style: normal;
+           font-weight: 500;}
+
+.container {
+				    width: 1200px;
+				    position: relative;
+				    overflow: hidden;
+				}
+
+p, br {
+		    opacity: 1;
+		    transform: translateX(100%);
+		    animation: fadeIn 1s forwards;
+		}
+
+.fade-in-1 { animation-delay: 0.5s; animation-name: fadeInLeft;}
+.fade-in-2 { animation-delay: 1.5s; animation-name: fadeInRight;}
+.fade-in-3 { animation-delay: 2.5s; animation-name: fadeInLeft;}
+.fade-in-4 { animation-delay: 3.5s; animation-name: fadeInRight;}
+.fade-in-5 { animation-delay: 4.5s; animation-name: fadeInLeft;}
+.fade-in-6 { animation-delay: 5.5s; animation-name: fadeInRight;}
+.fade-in-2, .fade-in-4, .fade-in-6 {
+    text-align: right;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-in-7 { animation-delay: 0.5s; animation-name: fadeIn forwards;}
+.fade-in-8 { animation-delay: 1s; animation-name: fadeIn forwards;}
+.fade-in-9 { animation-delay: 2s; animation-name: fadeIn forwards;}
+.fade-in-10 { animation-delay: 3s; animation-name: fadeIn forwards;}
+.fade-in-11 { animation-delay: 4s; animation-name: fadeIn forwards;}
+.fade-in-12 { animation-delay: 5s; animation-name: fadein forwards;}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-scroll {
+    opacity: 0;
+    animation: fadeInUp 1.5s ease forwards;
+}
+.fade-in-scroll.font-color-yellow {
+    opacity: 0;
+    animation: fadeInUp 1.5s ease forwards;
+  }
+
+body, h1, h2, h3, p{margin: 0; padding: 0;}
+html,body{cursor: url("img/cursor.png"), auto;}
+body{background-color: white;}
+h1{font-family: rixdongnimgothic-pro;
+   font-size: 100px;
+   color: white;}
+h2{font-family: rixdongnimgothic-pro;
+   font-size: 50px;
+   color: white;}
+h3{font-family: rixdongnimgothic-pro;
+   font-size: 30px;
+   color: white;}
+
+
+.flex {
+		   display: flex;
+		   flex-wrap: wrap;
+		   gap: 20px 10%;
+		   justify-content: center;}
+
+.flex > div > p, br {
+									    opacity: 1;
+									    transform: none;
+									    animation: none;
+									    text-align: center;
+									}
+.p-신고딕-white2 p, .p-신고딕-white2 br {
+      opacity: 1;
+      transform: translateX(0);
+      animation: none;
+    }
+
+.hdr-bg{background: url(img/header-bg2.jpg);
+        background-size: cover;}
+.hdr-title{width:1000px; margin: auto; padding-top: 250px; padding-left: 220px;}
+.hdr-txt{width:1000px; margin: auto; padding: 350px 0px 600px 250px;}
+.소개서{width: 1200px; margin: auto; padding-left: 150px;}
+.p-신고딕-black{font-family: "rixsingose-pro", sans-serif;
+			         font-size: 1.2rem;
+			         color: black;
+			         line-height: 50px;}
+.p-신고딕-white{font-family: "rixsingose-pro", sans-serif;
+			         font-size: 1.7rem;
+			         color: white;
+			         line-height: 50px;}
+.p-신고딕-white2{font-family: "rixsingose-pro", sans-serif;
+							   font-size: 2.5rem;
+							   color: white;
+							   line-height: 70px;}
+.float-right{float: right;}
+.content2{width: 1000px; margin: auto;}
+.highlight {color: red;}
+.font-color-white{color: white;}
+.font-color-yellow{color: #f4d13e;}
+.hover{transition: all 0.3s ease; margin-top: 40px;}
+.hover:hover{transform: translateY(-30px); rotate: -10deg;}
+
+
+.소개서-wrap{width: 1520px; height: 2000px; margin: 0px auto; padding-top: 200px; padding-bottom: 100px;}
+.st1-wrap{width: 1520px; height: 700px; margin: 0px auto;
+		  	  background: url(img/이병구.gif);
+          background-size: cover;
+          text-align: center;}
+.st2-wrap{width: 1520px; height: 1000px; margin: 0px auto; padding-top: 50px; padding-bottom: 200px;}
+.st3-wrap{width: 1520px; height: 4500px; margin: 0px auto;
+		  background: url(img/1-1-bg.jpg);
+		  background-size: cover;}
+.st4-wrap{width: 1520px; height: 700px; margin: 0px auto;
+		  	  background: url(img/외계인.gif);
+          background-size: cover;
+          text-align: center;}
+.st5-wrap{width: 1520px; height: 400px; margin: 0px auto; padding-top: 50px; padding-bottom: 200px;}
+.st6-wrap{width: 1520px; height: 3900px; margin: 0px auto;
+		  background: url(img/2-1-bg.jpg);
+		  background-size: cover;}
+.st7-wrap{width: 1520px; height: 700px; margin: 0px auto;
+		  	  background: url(img/외계인고문.gif);
+          background-size: cover;
+          text-align: center;}
+
+
+.pd-top40{padding-top: 40px;}
+.pd-top50{padding-top: 50px;}
+.pd-top70{padding-top: 70px;}
+.pd-top100{padding-top: 100px;}
+.pd-top200{padding-top: 200px;}
+.pd-top450{padding-top: 450px;}
+.pd-top500{padding-top: 500px;}
+.pd-bottom40{padding-bottom: 40px;}
+.pd-bottom60{padding-bottom: 60px;}
+.pd-bottom100{padding-bottom: 100px;}
+.pd-left20{padding-left: 20px;}
+.pd-left70{padding-left: 70px;}
+.pd-left100{padding-left: 100px;}
+.pd-left120{padding-left: 120px;}
+.pd-left150{padding-left: 150px;}
+.pd-left180{padding-left: 180px;}
+.pd-left200{padding-left: 200px;}
+.pd-left1200{padding-left: 1200px;}
+.pd-right70{padding-right: 70px;}
+
+
+</style>
+<body>
+	<header class="hdr-bg">
+		<img src="img/지구를지켜라.png" class="hdr-title">
+		<img src="img/header-txt.png" class="hdr-txt">
+	</header>
+	<section>
+		<div class="소개서-wrap">
+		<img src="img/지구용사 소개서.jpg" class="소개서">
+	</section>
+	<section>
+		<div class="st1-wrap">
+			<img src="img/1-title.png" width="1300px" class="pd-top450">
+		</div>
+	</section>
+	<section>
+		<div class="st2-wrap p-신고딕-black">
+				<p class="wow fade-in-1 pd-top40 pd-bottom40 pd-left70">기자: 안녕하세요, 자기소개 부탁드립니다.</p>
+        <p class="wow fade-in-2 pd-top40 pd-bottom40 pd-right70">병구: 나는 지구용사 이병구요.</p>
+        <p class="wow fade-in-3 pd-top40 pd-bottom40 pd-left70">기자: 병구씨는 어쩌다 지구를 지키는 용사가 될 결심을 하셨나요?</p>
+        <p class="wow fade-in-4 pd-top40 pd-bottom40 pd-right70">병구: 나는 내 가족들을 모두 외계인에게 잃었어요.
+            <br>광산에 깔려 팔이 잘린 아버지도,
+            <br>독한 가스냄새 마시다가 식물인간이 된 어머니도,
+            <br>그리고 불 탄 공장에서 나오지 못한 누나도...</p>
+        <p class="wow fade-in-5 pd-top40 pd-bottom40 pd-left70">기자: 외계인.. 이라면 누굴 말씀하시는 거죠?</p>
+        <p class="wow fade-in-6 pd-top40 pd-bottom40 pd-right70">병구: 그저 열심히 일했을 뿐인 우리의 피를 못 본 척하는 인간들...
+            <br>금수만도 못한 걔넨 외계인이 아니고선 설명할 수 없어!</p>
+		</div>
+	</section>
+	<section>
+    <div class="st3-wrap p-신고딕-white">
+      <img class="pd-left150 pd-top200" src="img/1-1-txt.png" width="1200px">
+        <div class="flex pd-top100">
+            <div>
+            	<a href="https://www.bbc.com/korean/news-63380783" target="_blank">
+                <img src="img/spc.png" width="300px" style="display: block; margin: auto;" class="hover">
+              </a>
+                <p class="pd-top40"> 23살 짜리가 <br> 빵 만들다가... </p>
+            </div>
+            <div>
+            	<a href="https://www.hani.co.kr/arti/society/labor/1137070.html" target="_blank">
+                <img src="img/삼성반도체.png" width="300px" style="display: block; margin: auto;" class="hover">
+              </a>
+                <p class="pd-top40"> 20살도 안된 애가 <br> 휴대전화 만들다가... </p>
+            </div>
+            <div>
+            	<a href="https://news.kbs.co.kr/news/pc/view/view.do?ncd=4436275" target="_blank">
+                <img src="img/우체국.png" width="300px" style="display: block; margin: auto;" class="hover">
+              </a>
+                <p class="pd-top40"> 이제 30인 사람이 <br> 택배 업고 다니다가... </p>
+            </div>
+   		  </div>
+          <div class="pd-top500">
+          	<div>
+          	   <img src="img/1.jpg" width="700px" class="wow fade-in-scroll fade-in-7 pd-bottom40 pd-left70">
+            </div>
+          	<img src="img/2.jpg" width="900px" class="wow fade-in-scroll fade-in-8 pd-bottom40 float-right pd-right70">
+          	<img src="img/3.jpg" width="900px" class="wow fade-in-scroll fade-in-9 pd-bottom40 pd-left70">
+          	<img src="img/4.jpg" width="1000px" class="wow fade-in-scroll fade-in-10 pd-bottom40 float-right pd-right70">
+          	<img src="img/5.jpg" width="700px" class="wow fade-in-scroll fade-in-11 pd-bottom40 pd-left70">
+          	<img src="img/6.jpg" width="900px" class="wow fade-in-scroll fade-in-12 pd-bottom40 float-right pd-right70">
+          </div>
+          <img class="pd-left150 pd-top200" src="img/1-2-txt.png" width="1200px">
+    </div>
+    </section>
+    <section>
+        <div class="st4-wrap">
+            <img src="img/2-title.png" width="1300px" class="pd-top450">
+        </div>
+    </section>
+	<section>
+		<div class="st5-wrap p-신고딕-black">
+        <p class="wow fade-in-2 pd-top40 pd-bottom40 pd-right70">병구: 이 외계인들의 가장 못된 점은 우리를 기만한다는 거야.</p>
+        <p class="wow fade-in-3 pd-top40 pd-bottom40 pd-left70">기자: 기만이라면.. 어떤 행동인가요?</p>
+        <p class="wow fade-in-4 pd-top40 pd-bottom40 pd-right70">병구: 탁상공론만큼 사람을 피말리는 게 없어... </p>
+		</div>
+	</section>
+	<section>
+    <div class="st6-wrap">
+	    <img class="pd-left180 pd-top200" src="img/2-1-txt.png" width="1200px">
+			<div class="pd-top100 p-신고딕-white2">
+				<img src="img/중대재해처벌법.png" class="pd-left70 pd-top200" width="400px">
+				<p class="pd-left70"> : 기업경영책임자가 안전 확보 의무를 소홀히 해 사망사고 등 중대재해가 발생할 <br>경우 1년 이상의 징역형 또는 10억원 이하의 벌금으로 처벌하도록 규정하는 법이다.</p>
+
+				<p class="pd-left100 pd-top200"> 시행 대상은 <span class="highlight">상시 고용인 5인 이상</span>의 사업장에서 일어난 산재를 기준으로 한다.</p>
+				<p class="pd-left100 pd-top70 font-color-yellow wow fade-in-scroll ">"치킨을 튀기다가 2명이나 화상을 입고 <br>아르바이트를 잘렸는데... 저라고 어떻게 안심해요. <br>그 와중에 우리 사장은 눈하나 깜짝 안하고 신입을 뽑는다구요."<br> -3인 이하 사업장 아르바이트생 김00씨(24세)-</p>
+
+				<p class="pd-left100 pd-top200">대상 사업장은 <b style="color: red;">의무 사항으로서 안전보건관리담당자가 감독하는 사업장의 자발적</b> <br><b style="color: red;">안전보건관리체계를 필요</b>로 한다.</p>
+				<p class="pd-left100 pd-top70 font-color-yellow wow fade-in-scroll">“가맹점 운영하면서 나랑 우리 집사람까지 겨우 6명이 일하는데, <br>우리가 무슨 여력이 있어서 안전관리자를 쓸 수 있겠어... <br>자영업하기 힘든 나라는 아주 그냥 어떻게든 목을 죄여!” <br>-프렌차이즈 사업장 점주 금00씨(62세)-</p>
+
+				<p class="pd-left100 pd-top200">처벌 기준의 경우, <b style="color: red;">사망자가 1명 이상 혹은 동일한 사고로 인한 부상자가 2명 이상,</b> <br><b style="color: red;">또한 동일 한 유해요인으로 직업성 질병작 1년 이내 3명 이상</b> 발생하는 경우들이다.</p>
+				<p class="pd-left100 pd-top70 font-color-yellow wow fade-in-scroll ">“저는 일하다가 다친 거에 대한 보상 돈으로만은 못받아요. <br>사과는 커녕 병원비도 아깝다며 비아냥거리던 사장인데 <br>다친 것도 안타깝게 나 하나라 어떻게 법으로 복수할 수도 없고...”<br>-가구제작소 직원 출신 정00씨(33세)-</p>
+			</div>
+			<img class="pd-left150 pd-top200" src="img/2-2-txt.png" width="1200px">
+		</div>
+	</section>
+	<section>
+		<div class="st7-wrap">
+			<img src="img/3-title.png" width="1300px" class="pd-top450">
+		</div>
+	</section>
+	<section>
+	<div class="st2-wrap p-신고딕-black">
+			<p class="wow fade-in-1 pd-top40 pd-bottom40 pd-left70">기자: 가족 분들을 모두 노동사고로 잃은 병구씨에겐 <br>외계인들이 더욱 미울 것 같아요.</p>
+      <p class="wow fade-in-2 pd-top40 pd-bottom40 pd-right70">병구: 나도 참 많이 절규했고 아직도 슬퍼하고 있어요.<br>근데 나는 절규하는 것에서 멈추지 않습니다.</p>
+      <p class="wow fade-in-3 pd-top40 pd-bottom40 pd-left70">기자: 그게 무슨 말씀이시죠?</p>
+      <p class="wow fade-in-4 pd-top40 pd-bottom40 pd-right70">병구: 내가 말이야, 외계인을 진짜로 고문해봤거든요? <br>죽이기까지는 못했지만...</p>
+      <p class="wow fade-in-5 pd-top40 pd-bottom40 pd-left70">기자: 이것 참 오싹한 얘기인데요...</p>
+      <p class="wow fade-in-6 pd-top40 pd-bottom40 pd-right70">병구: 때밀이랑 물파스만 있으면 됩니다.</p>
+	</div>
+</section>
+<section>
+	
+</section>
+</body>
+</html>
